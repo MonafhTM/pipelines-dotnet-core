@@ -6,7 +6,7 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('jenkins-aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('jenkins-aws-secret-access-key')
 
-        AWS_S3_BUCKET = "artifact-dotnet-dll-files"
+        AWS_S3_BUCKET = "artifact-dotnet-dll-files1"
         ARTIFACT_NAME = "pipelines-dotnet-core.dll"
         AWS_EB_APP_NAME = "sample-dotnet-app"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
